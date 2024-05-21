@@ -1,0 +1,19 @@
+:root {
+    --cream-color: #FFF7EC;
+    --green-color: #457726;
+}
+
+html {
+    background-color: var(--cream-color);
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.green {
+    color: var(--green-color);
+}
