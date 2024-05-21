@@ -26,6 +26,7 @@ const Home = () => {
       <div id='text-content'>
         <h1 id='text-name' className={`green ${rampart_one.className}`}>JohnHenry Ward</h1>
         <h4 id='text-splash' className={rammetto_one.className}>{splashText}</h4>
+        <h6>Work In Progress</h6>
       </div>
     </div>
   );
