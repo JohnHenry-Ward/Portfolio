@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div id='main-content'>
       <div id='headshot-container'>
-        <Image id='headshot' src={require('../../public/headshot_large.png')} width={250} height={250} alt="Picture of JohnHenry" />
+        <Image id='headshot' src={require('../../public/headshot.png')} width={250} height={250} alt="Picture of JohnHenry" />
       </div>
       <div id='text-content'>
         <h1 id='text-name' className={`green ${rampart_one.className}`}>JohnHenry Ward</h1>
