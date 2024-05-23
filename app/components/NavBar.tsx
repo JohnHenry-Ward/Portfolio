@@ -4,7 +4,7 @@ const rampart_one = Rampart_One({ subsets: ['latin'], weight: '400' });
 
 const NavBar = () => {
   return (
-    <div id="navbar" className={rampart_one.className}>
+    <div className={`navbar ${rampart_one.className}`}>
       <Link className="navbar-link" href='/'>
         <h4 className="navbar-text">Home</h4>
       </Link>
