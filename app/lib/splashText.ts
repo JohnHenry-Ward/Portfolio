@@ -1,5 +1,5 @@
 
-const splashTextOptions = ['Software Engineer', 'Problem Solver', 'Cat Dad', 'Plant Lover'];
+const splashTextOptions = ['Software Engineer', 'Problem Solver', 'Cat Dad', 'Plant Lover', 'Trying My Best', ':)'];
 const splashColorOptions = ['splash-blue', 'splash-brown', 'splash-purple', 'splash-orange', 'splash-yellow'];
 
 const setSplash = async (setSplashText: Function, setSplashColor: Function) => {
