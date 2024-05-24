@@ -1,8 +1,8 @@
 'use client'; // needed for side effects
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import { Rampart_One, Rammetto_One } from "next/font/google";
+import Image from "next/image";
 import setSplash from "../lib/splashText";
 
 const rampart_one = Rampart_One({ subsets: ['latin'], weight: '400' });
@@ -13,14 +13,16 @@ const Header = () => {
     const [splashText, setSplashText] = useState('');
     const [splashColor, setSplashColor] = useState('');
     const [getNewSplash, setGetNewSplash] = useState(true);
+    const [firstRun, setFirstRun] = useState(true);
 
     useEffect(() => {
         const runSplash = async () => {
-            await setSplash(setSplashText, setSplashColor);
+            await setSplash(setSplashText, setSplashColor, firstRun);
             setGetNewSplash(!getNewSplash);
         }
 
         runSplash();
+        setFirstRun(false);
     }, [getNewSplash]);
 
     return (

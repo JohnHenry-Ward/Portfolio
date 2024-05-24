@@ -2,8 +2,14 @@
 const splashTextOptions = ['Software Engineer', 'Problem Solver', 'Cat Dad', 'Plant Lover', 'Trying My Best', ':)'];
 const splashColorOptions = ['splash-blue', 'splash-brown', 'splash-purple', 'splash-orange', 'splash-yellow'];
 
-const setSplash = async (setSplashText: Function, setSplashColor: Function) => {
-    let randomIndexText = Math.floor(Math.random() * splashTextOptions.length);
+const setSplash = async (setSplashText: Function, setSplashColor: Function, firstRun: boolean) => {
+    
+    let randomIndexText = 0
+    
+    if (!firstRun) {
+        randomIndexText = Math.floor(Math.random() * splashTextOptions.length);
+    }
+    
     let randomIndexColor = Math.floor(Math.random() * splashColorOptions.length);
     let text = splashTextOptions[randomIndexText];
     setSplashColor(splashColorOptions[randomIndexColor]);
