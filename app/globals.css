@@ -18,6 +18,10 @@ body {
     color: var(--green-color);
 }
 
+.black {
+    color: black;
+}
+
 .splash-blue {
     color: var(--splash-blue-color);
 }
@@ -49,7 +53,6 @@ body {
 
 .navbar-text {
     margin: 0;
-    color: black;
 }
 
 .navbar-link {
