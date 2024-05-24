@@ -29,7 +29,7 @@ const Header = () => {
     return (
         <div className='main-content'>
             <div className='headshot-container'>
-                <Image className='headshot' src={require('../../public/headshot.png')} alt="Picture of JohnHenry" />
+                <Image className='headshot' src={require('../../public/headshot.png')} alt="Picture of JohnHenry" priority={true} />
             </div>
             <div className='text-content'>
                 <h1 className={`text-name green ${rampart_one.className}`}>JohnHenry Ward</h1>
