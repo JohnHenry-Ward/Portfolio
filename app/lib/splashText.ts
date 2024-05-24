@@ -1,15 +1,9 @@
 
-const splashTextOptions = ['Software Engineer', 'Problem Solver', 'Cat Dad', 'Plant Lover', 'Trying My Best', ':)'];
+const splashTextOptions = ['Software Engineer', 'Problem Solver', 'Cat Dad', 'Plant Lover', 'Trying My Best', ':)', 'Go Mariners!'];
 const splashColorOptions = ['splash-blue', 'splash-brown', 'splash-purple', 'splash-orange', 'splash-yellow'];
 
-const setSplash = async (setSplashText: Function, setSplashColor: Function, firstRun: boolean) => {
-    
-    let randomIndexText = 0
-    
-    if (!firstRun) {
-        randomIndexText = Math.floor(Math.random() * splashTextOptions.length);
-    }
-    
+const setSplash = async (setSplashText: Function, setSplashColor: Function, firstRun: boolean, splashIndex: number, setSplashIndex: Function) => {
+    let randomIndexText = getRandomTextIndex(firstRun, splashIndex, setSplashIndex);
     let randomIndexColor = Math.floor(Math.random() * splashColorOptions.length);
     let text = splashTextOptions[randomIndexText];
     setSplashColor(splashColorOptions[randomIndexColor]);
@@ -40,6 +34,24 @@ const deleteText = async (text: String, setSplashText: Function) => {
 
 const wait = (ms: number) => {
     return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// make the first run always be Software Engineer, and don't have the same text back to back
+const getRandomTextIndex = (firstRun: boolean, splashIndex: number, setSplashIndex: Function) => {
+    let randomIndex = 0
+    
+    if (!firstRun) {
+        randomIndex = Math.floor(Math.random() * splashTextOptions.length);
+
+        while (splashIndex == randomIndex) {
+            console.log('getting a new one!');
+            randomIndex = Math.floor(Math.random() * splashTextOptions.length);
+        }
+    }
+
+    setSplashIndex(randomIndex);
+
+    return randomIndex;
 }
 
 export default setSplash;

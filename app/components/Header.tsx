@@ -11,13 +11,14 @@ const rammetto_one = Rammetto_One({ subsets: ['latin'], weight: '400' });
 const Header = () => {
 
     const [splashText, setSplashText] = useState('');
+    const [splashIndex, setSplashIndex] = useState(0);
     const [splashColor, setSplashColor] = useState('');
     const [getNewSplash, setGetNewSplash] = useState(true);
     const [firstRun, setFirstRun] = useState(true);
 
     useEffect(() => {
         const runSplash = async () => {
-            await setSplash(setSplashText, setSplashColor, firstRun);
+            await setSplash(setSplashText, setSplashColor, firstRun, splashIndex, setSplashIndex);
             setGetNewSplash(!getNewSplash);
         }
 
