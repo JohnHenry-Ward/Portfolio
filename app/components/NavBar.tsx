@@ -2,10 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Rampart_One } from "next/font/google";
 import { useState } from "react";
-
-const rampart_one = Rampart_One({ subsets: ['latin'], weight: '400' });
 
 const NavBar = () => {
 
@@ -33,7 +30,7 @@ const NavBar = () => {
 
 
   return (
-    <div className={`navbar ${rampart_one.className}`}>
+    <div className='navbar'>
       <Link className="navbar-link" href='/' onClick={(e) => onClick('home')}>
         <h4 className={`navbar-text ${linkColors['home']}`}>Home</h4>
       </Link>

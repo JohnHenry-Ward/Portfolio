@@ -1,9 +1,9 @@
-import React from 'react'
+import Header from "../components/Header"
 
 const About = () => {
   return (
     <div>
-      <h1>About Me</h1>
+      <Header title='About Me' subtitle='Interests, Goals, & Who I Am' />
     </div>
   )
 }
