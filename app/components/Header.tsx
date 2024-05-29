@@ -20,12 +20,12 @@ const Header: React.FC<{title: string, subtitle: string}> = ({ title, subtitle }
 
   return (
     <div className='header-container'>
-      <div className='title green'>
+      <h1 className='title green'>
         {title}
-      </div>
-      <div className={`subtitle ${subtitleColor}`}>
+      </h1>
+      <h4 className={`subtitle ${subtitleColor}`}>
         {subtitle}
-      </div>
+      </h4>
     </div>
   )
 }
