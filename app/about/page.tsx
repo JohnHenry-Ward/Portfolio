@@ -14,7 +14,7 @@ const About = () => {
           <AtAGlance />
         </div>
       </div>
-      
+
     </div>
   )
 }

@@ -1,25 +1,10 @@
-'use client'; // needed for side effects
-
-import { useState, useEffect } from "react";
-import { getRandomColor } from '../lib/splashText';
-
-interface colorData {
-    color: String,
-    prevState: null
-}
 
 const AtAGlance = () => {
-    const [subtitleColor, setSubtitleColor] = useState<colorData | String>('');
-
-    useEffect(() => {
-        const color = getRandomColor();
-        setSubtitleColor(color);
-    }, []);
-
+    
     return (
         <div className='at-a-glance-container'>
             <div className='at-a-glance-item-container'>
-                <h6 className='at-a-glance-item-header'>Languages</h6>
+                <h6 className='at-a-glance-item-header'>Top Languages</h6>
                 <ul className='at-a-glance-item-list'>
                     <li>Python</li>
                     <li>JavaScript</li>

@@ -169,8 +169,8 @@ body {
 .at-a-glance-container {
     display: flex;
     flex-direction: column;
-    width: 25%;
-    margin-left: 5%;
+    width: auto;
+    margin: auto;
 }
 
 .at-a-glance-item-container {
