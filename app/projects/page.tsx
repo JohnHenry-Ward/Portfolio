@@ -1,9 +1,10 @@
-import React from 'react'
+import Header from "../components/Header"
 
 const Projects = () => {
+
   return (
     <div>
-      <h1>Projects</h1>
+      <Header title='Projects' subtitle='Learning, Growing, & Passion' />
     </div>
   )
 }

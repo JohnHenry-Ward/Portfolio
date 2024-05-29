@@ -1,4 +1,4 @@
-'use client'
+'use client' // needed for side effects
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";

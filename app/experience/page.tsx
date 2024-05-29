@@ -1,9 +1,10 @@
-import React from 'react'
+import Header from "../components/Header"
 
 const Experience = () => {
+
   return (
     <div>
-      <h1>Experience</h1>
+      <Header title='Experience' subtitle='Work, Volunteer, & Education' />
     </div>
   )
 }

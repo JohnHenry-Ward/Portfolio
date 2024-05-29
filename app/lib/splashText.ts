@@ -1,12 +1,10 @@
-
-const splashTextOptions = ['Software Engineer', 'Problem Solver', 'Cat Dad', 'Plant Lover', 'Trying My Best', ':)', 'Go Mariners!'];
-const splashColorOptions = ['splash-blue', 'splash-brown', 'splash-purple', 'splash-orange', 'splash-yellow'];
+import {splashTextOptions, splashColorOptions} from './splashOptions';
 
 const setSplash = async (setSplashText: Function, setSplashColor: Function, firstRun: boolean, splashIndex: number, setSplashIndex: Function) => {
     let randomIndexText = getRandomTextIndex(firstRun, splashIndex, setSplashIndex);
-    let randomIndexColor = Math.floor(Math.random() * splashColorOptions.length);
+    let randomColor = getRandomColor()
     let text = splashTextOptions[randomIndexText];
-    setSplashColor(splashColorOptions[randomIndexColor]);
+    setSplashColor(randomColor);
     await typeText(text, setSplashText)
     await deleteText(text, setSplashText);
 }
@@ -54,4 +52,9 @@ const getRandomTextIndex = (firstRun: boolean, splashIndex: number, setSplashInd
     return randomIndex;
 }
 
-export default setSplash;
+const getRandomColor = () => {
+    let randomIndexColor = Math.floor(Math.random() * splashColorOptions.length);
+    return splashColorOptions[randomIndexColor];
+}
+
+export { setSplash, getRandomColor };

@@ -10,7 +10,7 @@
 
 body {
     background-color: var(--cream-color);
-    margin: 0;
+    margin: 0 5%;
     height: 100%;
 }
 
@@ -45,7 +45,7 @@ body {
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
     font-size: 2.5rem;
     height: 8vh;
@@ -123,4 +123,23 @@ body {
     40% {opacity: 1;}
     60% {opacity: 0;}
     100% {opacity: 0;}
+}
+
+/* Componenets */
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 5% 0 0 0;
+}
+
+.title {
+    font-family: var(--font-rampart);
+    font-size: 3.5em;
+}
+
+.subtitle {
+    font-family: var(--font-rammetto);
+    font-size: 1.5em;
 }
