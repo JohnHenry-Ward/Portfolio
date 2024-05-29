@@ -197,3 +197,32 @@ body {
 .at-a-glance-item-list li::marker {
     color: var(--green-color);
 }
+
+/* Experience */
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.experience-item-container {
+    margin-bottom: 2%;
+}
+
+.experience-header-container {
+    display: flex;
+    flex-direction: row;
+    font-family: var(--font-rammetto);
+    justify-content: space-between;
+}
+
+.experience-title, .experience-date  {
+    font-weight: 100;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.experience-body {
+    font-family: var(--font-roboto);
+}
