@@ -133,7 +133,6 @@ body {
     justify-content: left;
     margin: 2% 0 0 0;
     width: 100%;
-    border: 1px solid red;
 }
 
 .title {
@@ -164,14 +163,12 @@ body {
 
 .about-body {
     width: 75%;
-    border: 1px solid red;
     font-family: var(--font-roboto);
 }
 
 .at-a-glance-container {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     width: 25%;
     margin-left: 5%;
 }
