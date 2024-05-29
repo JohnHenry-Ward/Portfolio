@@ -226,3 +226,13 @@ body {
 .experience-body {
     font-family: var(--font-roboto);
 }
+
+/* Not Found */
+
+.not-found {
+    font-size: 20em;
+    color: var(--green-color);
+    font-family: var(--font-rampart);
+    text-align: center;
+    margin: 0;
+}
