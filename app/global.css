@@ -227,6 +227,59 @@ body {
     font-family: var(--font-roboto);
 }
 
+/* Projects */
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.project-item-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 2% 0;
+}
+
+.project-text-container {
+    margin: 0 5% 2% 0;
+}
+
+.project-text-title {
+    font-family: var(--font-rammetto);
+    font-weight: 100;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.project-text-subtitle {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 1em;
+    margin: 0;
+}
+
+.project-text-body {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 0.9em;
+    margin: 1% 0 0 0;
+}
+
+.project-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.project-img {
+    height: auto;
+    width: 100%;
+    min-width: 25vw;
+    margin: auto;
+}
+
 /* Not Found */
 
 .not-found {

@@ -1,33 +1,43 @@
-interface Experience {
+interface Project {
     title: string,
-    date: string,
+    subtitle: string,
     body: string,
+    imgName: string,
+    imgDesc: string,
     key: number
   }
 
-const data: Array<Experience> = [
+const data: Array<Project> = [
     {
-        "title": "Software Engineer @ AKASA",
-        "date": "Apr 2022 - Apr 2024",
+        "title": "Fantasy Futbol",
+        "subtitle": "JavaScript, React.js, Node.js, MongoDB, API Integration, Heroku",
         "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sapiente qui minus minima doloribus, repellat voluptas non ullam, pariatur delectus distinctio nemo asperiores, magni voluptates vel sed itaque libero. Illo, vero optio suscipit dolore facere, quos atque aut commodi sit libero quaerat vel nobis! Facilis, quidem! Modi, placeat quo? Debitis aut voluptate exercitationem dignissimos nemo perferendis tempore, quae voluptas in ad. Natus ex accusantium vitae eum fugiat ipsum! Pariatur similique hic ad libero nihil eos voluptas dignissimos natus, ipsa, error eum illum totam sint distinctio iure soluta at. Voluptate unde a amet quaerat id ex reiciendis deserunt placeat molestias iusto.",
+        "imgName": "temp.png",
+        "imgDesc": "description of image",
         "key": 1
     },
     {
-        "title": "B.S. in Computer Science @ WWU",
-        "date": "Sep 2017 - Dec 2021",
+        "title": "Movie Script Sentiment Analysis",
+        "subtitle": "Python, NLP",
         "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sapiente qui minus minima doloribus, repellat voluptas non ullam, pariatur delectus distinctio nemo asperiores, magni voluptates vel sed itaque libero. Illo, vero optio suscipit dolore facere, quos atque aut commodi sit libero quaerat vel nobis! Facilis, quidem! Modi, placeat quo? Debitis aut voluptate exercitationem dignissimos nemo perferendis tempore, quae voluptas in ad. Natus ex accusantium vitae eum fugiat ipsum! Pariatur similique hic ad libero nihil eos voluptas dignissimos natus, ipsa, error eum illum totam sint distinctio iure soluta at. Voluptate unde a amet quaerat id ex reiciendis deserunt placeat molestias iusto.",
+        "imgName": "temp.png",
+        "imgDesc": "description of image",
         "key": 2
     },
     {
-        "title": "C.S. Peer Mentor @ WWU",
-        "date": "Sep 2019 - Jun 2021",
+        "title": "Project 3",
+        "subtitle": "x, y, z",
         "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sapiente qui minus minima doloribus, repellat voluptas non ullam, pariatur delectus distinctio nemo asperiores, magni voluptates vel sed itaque libero. Illo, vero optio suscipit dolore facere, quos atque aut commodi sit libero quaerat vel nobis! Facilis, quidem! Modi, placeat quo? Debitis aut voluptate exercitationem dignissimos nemo perferendis tempore, quae voluptas in ad. Natus ex accusantium vitae eum fugiat ipsum! Pariatur similique hic ad libero nihil eos voluptas dignissimos natus, ipsa, error eum illum totam sint distinctio iure soluta at. Voluptate unde a amet quaerat id ex reiciendis deserunt placeat molestias iusto.",
+        "imgName": "temp.png",
+        "imgDesc": "description of image",
         "key": 3
     },
     {
-        "title": "Registrar Program Staff @ WWU",
-        "date": "Sep 2019 - Jun 2021",
+        "title": "Project 4",
+        "subtitle": "a, b, c",
         "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sapiente qui minus minima doloribus, repellat voluptas non ullam, pariatur delectus distinctio nemo asperiores, magni voluptates vel sed itaque libero. Illo, vero optio suscipit dolore facere, quos atque aut commodi sit libero quaerat vel nobis! Facilis, quidem! Modi, placeat quo? Debitis aut voluptate exercitationem dignissimos nemo perferendis tempore, quae voluptas in ad. Natus ex accusantium vitae eum fugiat ipsum! Pariatur similique hic ad libero nihil eos voluptas dignissimos natus, ipsa, error eum illum totam sint distinctio iure soluta at. Voluptate unde a amet quaerat id ex reiciendis deserunt placeat molestias iusto.",
+        "imgName": "temp.png",
+        "imgDesc": "description of image",
         "key": 4
     },
 ]

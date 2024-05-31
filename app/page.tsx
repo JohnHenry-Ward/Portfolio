@@ -25,7 +25,7 @@ const Home = () => {
     return (
         <div className='main-content'>
             <div className='headshot-container'>
-                <Image className='headshot' src={require('./../public/headshot.png')} alt="Picture of JohnHenry" priority={true} />
+                <Image className='headshot' src={require('./../public/images/headshot.png')} alt="Picture of JohnHenry" priority={true} />
             </div>
             <div className='text-content'>
                 <h1 className='text-name green'>JohnHenry Ward</h1>
