@@ -280,6 +280,62 @@ body {
     margin: auto;
 }
 
+/* Resume */
+
+.resume-full-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.resume-download-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume-img {
+    max-height: 80vh;
+    width: auto;
+    margin: auto;
+    border: 5px solid var(--green-color);
+}
+
+.resume-download {
+    width: auto;
+    margin: 2% auto 0 auto;
+    color: var(--green-color);
+    font-family: var(--font-rampart);
+    font-size: 2em;
+    text-decoration: none;
+    pointer-events: none;
+    text-decoration: line-through;
+}
+
+.resume-download:hover {
+    cursor: pointer;
+}
+
+.float-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.float-text {
+    font-family: var(--font-rammetto);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
 /* Not Found */
 
 .not-found {
