@@ -7,15 +7,15 @@ const Experience = () => {
   return (
     <div>
       <Header title='Experience' subtitle='Work, Volunteer, & Education' />
-        <div className='experience-container'>
-          {
-            data.map((exp) => {
-              return (
-                <ExperienceCard title={exp.title} date={exp.date} body={exp.body} key={exp.key} />
-              )
-            })
-          }
-        </div>
+      <div className='experience-container'>
+        {
+          data.map((exp) => {
+            return (
+              <ExperienceCard title={exp.title} date={exp.date} body={exp.body} key={exp.key} />
+            )
+          })
+        }
+      </div>
     </div>
   )
 }

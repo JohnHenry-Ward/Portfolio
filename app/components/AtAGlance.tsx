@@ -1,6 +1,6 @@
 
 const AtAGlance = () => {
-    
+
     return (
         <div className='at-a-glance-container'>
             <div className='at-a-glance-item-container'>

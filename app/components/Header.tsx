@@ -8,7 +8,7 @@ interface colorData {
   prevState: null
 }
 
-const Header: React.FC<{title: string, subtitle: string}> = ({ title, subtitle }) => {
+const Header: React.FC<{ title: string, subtitle: string }> = ({ title, subtitle }) => {
 
   const [subtitleColor, setSubtitleColor] = useState<colorData | String>('');
 

@@ -26,10 +26,10 @@ const Resume = () => {
         <h2 className={`float-text ${textColors[1]} rotate-two`}>Lots of Potential</h2>
         <h2 className={`float-text ${textColors[2]} rotate-three`}>A Joy to Work With</h2>
       </div>
-      
+
       <div className='resume-download-container'>
         <div className='resume-img-container'>
-          <Image className='resume-img' src={require('../../public/images/resume.jpg')} alt='Image of Resume' priority/>
+          <Image className='resume-img' src={require('../../public/images/resume.jpg')} alt='Image of Resume' priority />
         </div>
         <a className='resume-download' href={'./documents/JohnHenry_Ward_Resume.pdf'} download='JohnHenry_Ward_Resume.pdf'>Click to Download</a>
       </div>
