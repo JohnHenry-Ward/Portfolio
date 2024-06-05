@@ -57,4 +57,8 @@ const getRandomColor = () => {
     return splashColorOptions[randomIndexColor];
 }
 
-export { setSplash, getRandomColor };
+const randomColorOrder = () => {
+    return splashColorOptions.sort(() => Math.random() - 0.5)
+}
+
+export { setSplash, getRandomColor, randomColorOrder };

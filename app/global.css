@@ -79,7 +79,7 @@ body {
 .headshot {
     height: auto;
     width: 100%;
-    min-width: 25vw;
+    max-width: 30vw;
     margin: auto;
 }
 
@@ -334,6 +334,30 @@ body {
     text-align: center;
     font-size: 1.2em;
     font-weight: 100;
+}
+
+.rotate-one {
+    transform: rotate(-7deg);
+}
+
+.rotate-two {
+    transform: rotate(10deg);
+}
+
+.rotate-three {
+    transform: rotate(-12deg);
+}
+
+.rotate-four {
+    transform: rotate(16deg);
+}
+
+.rotate-five {
+    transform: rotate(-4deg);
+}
+
+.rotate-six {
+    transform: rotate(5deg);
 }
 
 /* Not Found */
