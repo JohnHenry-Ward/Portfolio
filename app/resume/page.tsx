@@ -31,7 +31,7 @@ const Resume = () => {
         <div className='resume-img-container'>
           <Image className='resume-img' src={require('../../public/images/resume.jpg')} alt='Image of Resume' priority/>
         </div>
-        <a className='resume-download' href='/JohnHenry_Ward_Resume.pdf' target="_blank" rel="noopener noreferrer" download>Click to Download</a>
+        <a className='resume-download' href={'./documents/JohnHenry_Ward_Resume.pdf'} download='JohnHenry_Ward_Resume.pdf'>Click to Download</a>
       </div>
 
       <div className='float-text-container' >

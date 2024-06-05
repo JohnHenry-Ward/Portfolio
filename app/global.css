@@ -315,8 +315,8 @@ body {
     font-family: var(--font-rampart);
     font-size: 2em;
     text-decoration: none;
-    pointer-events: none;
-    text-decoration: line-through;
+    /* pointer-events: none;
+    text-decoration: line-through; */
 }
 
 .resume-download:hover {
