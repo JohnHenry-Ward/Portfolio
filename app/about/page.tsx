@@ -9,11 +9,18 @@ const About = () => {
       <div className='about-container'>
         <Header title='About Me' subtitle='Interests, Goals, & Who I Am' />
         <div className='about-content'>
-          <div className='about-body'>{data}</div>
+          <div className='about-body'>
+            {
+              data.map((d) => {
+                return (
+                  <p key={d.key}>{d.text}</p>
+                )
+              })
+            }
+          </div>
           <AtAGlance />
         </div>
       </div>
-
     </div>
   )
 }
