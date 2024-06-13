@@ -8,6 +8,10 @@
     --splash-yellow-color: #E3B505;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     background-color: var(--cream-color);
     margin: 0 5%;
@@ -152,13 +156,12 @@ body {
 .about-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin-top: 2%;
 }
 
 .about-content {
     display: flex;
     flex-direction: row;
-    margin-top: 2%;
 }
 
 .about-body {

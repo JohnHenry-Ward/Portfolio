@@ -10,7 +10,6 @@ const Projects = () => {
       <div className='project-container'>
         {
           data.map((pro) => {
-
             return (
               <Project title={pro.title} subtitle={pro.subtitle} body={pro.body} imgName={pro.imgName} imgDesc={pro.imgDesc} key={pro.key} />
             )
