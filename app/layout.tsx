@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Rampart_One, Rammetto_One, Roboto } from "next/font/google";
 import "./global.css";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 const rampart_one = Rampart_One({ subsets: ['latin'], weight: ['400'], variable: '--font-rampart' });
 const rammetto_one = Rammetto_One({ subsets: ['latin'], weight: ['400'], variable: '--font-rammetto' });
@@ -18,6 +19,7 @@ const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
       <body>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
