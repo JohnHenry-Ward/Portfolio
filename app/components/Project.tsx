@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Project: React.FC<{ title: string, subtitle: string, body: string, imgName: string, imgDesc: string }> = ({ title, subtitle, body, imgName, imgDesc }) => {
+const Project: React.FC<{ title: string, subtitle: string, body: string, imgName: string[], imgDesc: string[] }> = ({ title, subtitle, body, imgName, imgDesc }) => {
 
     return (
         <div className='project-item-container'>
@@ -13,8 +13,8 @@ const Project: React.FC<{ title: string, subtitle: string, body: string, imgName
                 <div className='project-text-body'>{body}</div>
             </div>
             <div className='project-img-container'>
-                <Image className='project-img' src={require(`../../public/images/${imgName}`)} alt='Image of project' priority />
-                <div className='project-img-text'>{imgDesc}</div>
+                <Image className='project-img' src={require(`../../public/images/${imgName[0]}`)} alt='Image of project' priority />
+                <div className='project-img-text'>{imgDesc[0]}</div>
             </div>
         </div>
     )
