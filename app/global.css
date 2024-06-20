@@ -286,8 +286,7 @@ body {
 
 .project-img {
     height: auto;
-    width: 100%;
-    min-width: 25vw;
+    width: 25vw;
     margin: auto;
 }
 
