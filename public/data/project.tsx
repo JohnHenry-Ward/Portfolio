@@ -4,6 +4,7 @@ interface Project {
     body: string,
     imgName: string[],
     imgDesc: string[],
+    link: string,
     key: number
   }
 
@@ -14,6 +15,7 @@ const data: Array<Project> = [
         "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sapiente qui minus minima doloribus, repellat voluptas non ullam, pariatur delectus distinctio nemo asperiores, magni voluptates vel sed itaque libero. Illo, vero optio suscipit dolore facere, quos atque aut commodi sit libero quaerat vel nobis! Facilis, quidem! Modi, placeat quo? Debitis aut voluptate exercitationem dignissimos nemo perferendis tempore, quae voluptas in ad. Natus ex accusantium vitae eum fugiat ipsum! Pariatur similique hic ad libero nihil eos voluptas dignissimos natus, ipsa, error eum illum totam sint distinctio iure soluta at. Voluptate unde a amet quaerat id ex reiciendis deserunt placeat molestias iusto.",
         "imgName": ["temp.png"],
         "imgDesc": ["description of image"],
+        "link": "https://github.com/JohnHenry-Ward/WorldCup2022Game",
         "key": 1
     },
     {
@@ -22,6 +24,7 @@ const data: Array<Project> = [
         "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sapiente qui minus minima doloribus, repellat voluptas non ullam, pariatur delectus distinctio nemo asperiores, magni voluptates vel sed itaque libero. Illo, vero optio suscipit dolore facere, quos atque aut commodi sit libero quaerat vel nobis! Facilis, quidem! Modi, placeat quo? Debitis aut voluptate exercitationem dignissimos nemo perferendis tempore, quae voluptas in ad. Natus ex accusantium vitae eum fugiat ipsum! Pariatur similique hic ad libero nihil eos voluptas dignissimos natus, ipsa, error eum illum totam sint distinctio iure soluta at. Voluptate unde a amet quaerat id ex reiciendis deserunt placeat molestias iusto.",
         "imgName": ["sentiment1.png"],
         "imgDesc": ["description of image"],
+        "link": "https://github.com/JohnHenry-Ward/Script-Sentiment-Analysis",
         "key": 2
     },
     {
@@ -30,6 +33,7 @@ const data: Array<Project> = [
         "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sapiente qui minus minima doloribus, repellat voluptas non ullam, pariatur delectus distinctio nemo asperiores, magni voluptates vel sed itaque libero. Illo, vero optio suscipit dolore facere, quos atque aut commodi sit libero quaerat vel nobis! Facilis, quidem! Modi, placeat quo? Debitis aut voluptate exercitationem dignissimos nemo perferendis tempore, quae voluptas in ad. Natus ex accusantium vitae eum fugiat ipsum! Pariatur similique hic ad libero nihil eos voluptas dignissimos natus, ipsa, error eum illum totam sint distinctio iure soluta at. Voluptate unde a amet quaerat id ex reiciendis deserunt placeat molestias iusto.",
         "imgName": ["caaml1.png"],
         "imgDesc": ["description of image"],
+        "link": "",
         "key": 3
     },
     {
@@ -38,6 +42,7 @@ const data: Array<Project> = [
         "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sapiente qui minus minima doloribus, repellat voluptas non ullam, pariatur delectus distinctio nemo asperiores, magni voluptates vel sed itaque libero. Illo, vero optio suscipit dolore facere, quos atque aut commodi sit libero quaerat vel nobis! Facilis, quidem! Modi, placeat quo? Debitis aut voluptate exercitationem dignissimos nemo perferendis tempore, quae voluptas in ad. Natus ex accusantium vitae eum fugiat ipsum! Pariatur similique hic ad libero nihil eos voluptas dignissimos natus, ipsa, error eum illum totam sint distinctio iure soluta at. Voluptate unde a amet quaerat id ex reiciendis deserunt placeat molestias iusto.",
         "imgName": ["deadwood1.png"],
         "imgDesc": ["description of image"],
+        "link": "https://github.com/JohnHenry-Ward/Deadwood",
         "key": 4
     },
     {
@@ -46,6 +51,7 @@ const data: Array<Project> = [
         "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sapiente qui minus minima doloribus, repellat voluptas non ullam, pariatur delectus distinctio nemo asperiores, magni voluptates vel sed itaque libero. Illo, vero optio suscipit dolore facere, quos atque aut commodi sit libero quaerat vel nobis! Facilis, quidem! Modi, placeat quo? Debitis aut voluptate exercitationem dignissimos nemo perferendis tempore, quae voluptas in ad. Natus ex accusantium vitae eum fugiat ipsum! Pariatur similique hic ad libero nihil eos voluptas dignissimos natus, ipsa, error eum illum totam sint distinctio iure soluta at. Voluptate unde a amet quaerat id ex reiciendis deserunt placeat molestias iusto.",
         "imgName": ["microshell1.png"],
         "imgDesc": ["description of image"],
+        "link": "https://github.com/JohnHenry-Ward/Microshell",
         "key": 5
     },
     {
@@ -54,6 +60,7 @@ const data: Array<Project> = [
         "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sapiente qui minus minima doloribus, repellat voluptas non ullam, pariatur delectus distinctio nemo asperiores, magni voluptates vel sed itaque libero. Illo, vero optio suscipit dolore facere, quos atque aut commodi sit libero quaerat vel nobis! Facilis, quidem! Modi, placeat quo? Debitis aut voluptate exercitationem dignissimos nemo perferendis tempore, quae voluptas in ad. Natus ex accusantium vitae eum fugiat ipsum! Pariatur similique hic ad libero nihil eos voluptas dignissimos natus, ipsa, error eum illum totam sint distinctio iure soluta at. Voluptate unde a amet quaerat id ex reiciendis deserunt placeat molestias iusto.",
         "imgName": ["buybetter.png"],
         "imgDesc": ["description of image"],
+        "link": "https://github.com/JohnHenry-Ward/buyBetter",
         "key": 6
     },
 ]
