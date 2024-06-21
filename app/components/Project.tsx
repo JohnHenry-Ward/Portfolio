@@ -3,14 +3,25 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Project: React.FC<{ title: string, subtitle: string, body: string, imgName: string[], imgDesc: string[], link: string }> = ({ title, subtitle, body, imgName, imgDesc, link }) => {
+const Project: React.FC<{ title: string, subtitle: string, body: string[], imgName: string[], imgDesc: string[], link: string }> = ({ title, subtitle, body, imgName, imgDesc, link }) => {
+    
+    let p_id = 0;
 
     return (
         <div className='project-item-container'>
             <div className='project-text-container'>
                 <h4 className='project-text-title'>{title}</h4>
                 <h5 className='project-text-subtitle'>{subtitle}</h5>
-                <div className='project-text-body'>{body}</div>
+                <div className='project-text-body'>
+                {
+                    body.map((p) => {
+                        p_id++;
+                        return (
+                        <p key={p_id}>{p}</p>
+                        )
+                    })    
+                }
+                </div>
                 {
                     link && <div className='project-text-link'><a href={link} target='_window'>GitHub Link</a></div>
                 }
