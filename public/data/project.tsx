@@ -4,7 +4,7 @@ interface Project {
     body: string[],
     imgName: string[],
     imgDesc: string[],
-    link: string,
+    gh_link: string,
     key: number
   }
 
@@ -19,8 +19,8 @@ const data: Array<Project> = [
             "Future plans for this project include updating the graphics to give it a more professional look, as I still need to improve my graphic design and UI/UX skills. Additionally, I plan to add functionality that allows users to select the tournament they want to create a league for, enabling the app to be used for multiple upcoming tournaments, as this version was built specifically for the 2022 World Cup. This project has been a fantastic way to merge my interests in soccer, fantasy sports, and web development, and I am excited to continue improving it.",
         ],
         "imgName": ["temp.png"],
-        "imgDesc": ["description of image"],
-        "link": "https://github.com/JohnHenry-Ward/WorldCup2022Game",
+        "imgDesc": ["Image coming soon!"],
+        "gh_link": "https://github.com/JohnHenry-Ward/WorldCup2022Game",
         "key": 1
     },
     {
@@ -33,8 +33,8 @@ const data: Array<Project> = [
             "A more detailed description and analysis can be seen by following the GitHub link."
         ],
         "imgName": ["sentiment1.png"],
-        "imgDesc": ["description of image"],
-        "link": "https://github.com/JohnHenry-Ward/Script-Sentiment-Analysis",
+        "imgDesc": ["An example graph"],
+        "gh_link": "https://github.com/JohnHenry-Ward/Script-Sentiment-Analysis",
         "key": 2
     },
     {
@@ -46,8 +46,8 @@ const data: Array<Project> = [
             "Although we did not achieve all our initial objectives, we successfully created four different visualizations and gained significant knowledge about the software development process. We employed an agile scrum approach, which involved weekly meetings with our professor and regular team meetings to ensure we stayed on track. I acted as the tech lead for this project, delegating work and ensuring everyone was on the same page through clear communication and organization.",
         ],
         "imgName": ["caaml1.png"],
-        "imgDesc": ["description of image"],
-        "link": "",
+        "imgDesc": ["Toggleable Activity Trace and Heat Map"],
+        "gh_link": "",
         "key": 3
     },
     {
@@ -58,8 +58,8 @@ const data: Array<Project> = [
             "This project taught me a lot about the software design process and the importance of strong communication skills when working on a development team. It also highlighted the significance of version control using Git. My teammate and I encountered multiple merge conflicts, which helped us learn valuable lessons about version control and code organization. Although the code is a bit clunky, as this was created earlier on in my computer science journey, I am really proud of the final product. I look forward to creating a similar project in the future to apply what I've learned and to improve upon my past work.",
         ],
         "imgName": ["deadwood1.png"],
-        "imgDesc": ["description of image"],
-        "link": "https://github.com/JohnHenry-Ward/Deadwood",
+        "imgDesc": ["Main Game Board"],
+        "gh_link": "https://github.com/JohnHenry-Ward/Deadwood",
         "key": 4
     },
     {
@@ -70,8 +70,8 @@ const data: Array<Project> = [
             "This project provided me with a deeper understanding of the UNIX operating system and enhanced my experience in writing C code. It also helped me grasp essential programming concepts such as pointers, the distinction between system and library calls, and memory management. For a more in-depth description of the commands supported by MicroShell, please follow the GitHub link.",            
         ],
         "imgName": ["microshell1.png"],
-        "imgDesc": ["description of image"],
-        "link": "https://github.com/JohnHenry-Ward/Microshell",
+        "imgDesc": ["Example of commands"],
+        "gh_link": "https://github.com/JohnHenry-Ward/Microshell",
         "key": 5
     },
     {
@@ -84,8 +84,8 @@ const data: Array<Project> = [
             "This tool, as well as my Tech for Social Good class as a whole, made me realize the importance of creating software and technology that does more good than harm. There is a lot of technology that is built on unethical values or is not used for good, and it’s important to me that I am a part of a team whose values align and whose goal is to create ethical software.",
         ],
         "imgName": ["buybetter.png"],
-        "imgDesc": ["description of image"],
-        "link": "https://github.com/JohnHenry-Ward/buyBetter",
+        "imgDesc": ["The Home Page"],
+        "gh_link": "https://github.com/JohnHenry-Ward/buyBetter",
         "key": 6
     },
 ]

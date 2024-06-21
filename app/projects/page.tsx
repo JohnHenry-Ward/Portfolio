@@ -11,7 +11,7 @@ const Projects = () => {
         {
           data.map((pro) => {
             return (
-              <Project title={pro.title} subtitle={pro.subtitle} body={pro.body} imgName={pro.imgName} imgDesc={pro.imgDesc} link={pro.link} key={pro.key} />
+              <Project title={pro.title} subtitle={pro.subtitle} body={pro.body} imgName={pro.imgName} imgDesc={pro.imgDesc} gh_link={pro.gh_link} key={pro.key} />
             )
           })
         }

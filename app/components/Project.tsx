@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Project: React.FC<{ title: string, subtitle: string, body: string[], imgName: string[], imgDesc: string[], link: string }> = ({ title, subtitle, body, imgName, imgDesc, link }) => {
+const Project: React.FC<{ title: string, subtitle: string, body: string[], imgName: string[], imgDesc: string[], gh_link: string }> = ({ title, subtitle, body, imgName, imgDesc, gh_link }) => {
     
     let p_id = 0;
 
@@ -23,7 +23,7 @@ const Project: React.FC<{ title: string, subtitle: string, body: string[], imgNa
                 }
                 </div>
                 {
-                    link && <div className='project-text-link'><a href={link} target='_window'>GitHub Link</a></div>
+                    gh_link && <div className='project-text-link'><a href={gh_link} target='_window'>GitHub Link</a></div>
                 }
             </div>
             <div className='project-img-container'>
